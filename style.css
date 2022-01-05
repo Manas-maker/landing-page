@@ -139,9 +139,9 @@ figcaption {
     margin: 64px;
     background-color: #3882F6;
     border-radius: 5px;
-    padding: 16px 64px;
+    padding: 16px 80px;
     display: flex;
-    gap: 48px;
+    justify-content: space-between;
 }
 
 .action-head {
