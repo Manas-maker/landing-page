@@ -12,22 +12,24 @@ body {
 
 .hero {
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    align-items: stretch;
+    padding: 0 164px;
 }
 
 .nav {
     display: flex;
-    gap: 1000px;
+    justify-content: space-between;
+    padding-top: 16px;
 }
 
 
 .logo {
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: bold;
 }
 
-.navlink, p {
+.navlink, p, .placeholder, .sign {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -39,4 +41,36 @@ ul {
     margin: 0px;
     padding: 0px;
     gap: 10px;
+}
+
+.sub-nav {
+    display: flex;
+    gap: 40px;
+    padding: 56px 0px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+    align-self: stretch;
+    margin: 0px;
+}
+
+.right {
+    display: flex;
+    background-color: #6D747D;
+    width: 1400px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+
+.sign {
+    background-color: #3882F6;
+    border-style: none;
+    border-radius: 8%;
+    width: 140px;
+    height: 40px;
 }
